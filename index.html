@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+
+    <style>
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    html, body {
+        width: 210mm !important;
+        height: 297mm !important;        
+    }
+
+    .page {
+        margin: 0 !important;
+        border: initial !important;
+        border-radius: initial !important;
+        width: initial !important;
+        min-height: initial !important;
+        box-shadow: initial !important;
+        background: initial !important;
+        page-break-after: always !important;
+    }
+}
+
+
+    </style>
+
+</head>
+<body style="width: 100%; height: 100%; margin: 0px; padding: 0px; box-sizing: border-box; background-color: #000;">
+
+    <!-- Start of Title Page -->
+    <section class="title__page">
+        <div class="page" style="width: 210mm; min-height: 297mm; padding: 20mm; margin: 10mm auto; background-color: #25C7CC;">
+            <div class="title__page__inner" style="background-color: #fff; padding: 1cm; height: 257mm; margin: 0px -40px; position: relative;">
+                <h1 class="text-center" style="color: #229599; font-weight: 800; font-size: 50px;">A Picture Story</h1>
+                <h3 style="color: #229599; font-size: 50px; margin-bottom: 30px;" class="text-center">For Going To The Doctors</h3>
+
+                <div class="bottom-line" style="margin: 0px 50px; height: 10px; background-color: #FFB826; border-radius: 20px;"></div>
+                    
+                    <div class="cover__image" style="vertical-align: middle;">
+                        <img src="./images/coverPageImage.png" alt="Cover Page Image" style="background-color: #FFB826; border: 5px solid #25C7CC; margin: 182px 195px; width: 274px; height: 197px; object-fit: contain;" />
+                    </div>
+            
+                    <div class="footer__logo" style="position: absolute; bottom: 60px; right: 20px; z-index: 1;">
+                        <img src="./images/logo-removebg-preview.png" alt="Logo" style="width: 250px;"/>
+                    </div>
+                    <svg style="position: absolute; bottom: 0px; right: 0px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#25C7CC" fill-opacity="1" d="M0,288L80,288C160,288,320,288,480,245.3C640,203,800,117,960,106.7C1120,96,1280,160,1360,192L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+                </div>
+
+        </div>
+    </section>
+    <!-- End of Title Page -->
+
+    <!-- Start of Single Picture Page -->
+    <section class="single__pic__page">
+        <div class="page" style="width: 210mm; min-height: 297mm; padding: 10mm; margin: 10mm auto; background-color: #fff;position: relative;">
+            <div class="single__pic__page__inner" style="background-color: #fff; padding: 1cm; height: 257mm;">
+                <img src="./images/logo.png" alt="Logo Image" style="width: 230px; text-align: center; display: block; margin: 30px auto;" />
+                <img src="./images/image-1.png" alt="Image" style="width: 310px; display: block; margin: 50px auto;"/>
+                <h1 class="text-center" style="font-weight: 800; color: #229599; font-size: 40px;">Joshuas Visit 
+                    to the Doctor</h1>
+
+                    <p style="position: absolute; bottom: 20px; right: 0px; background-color: #25C7CC; padding-top: 5px; padding-bottom: 5px; padding-right: 70px; padding-left: 10px; color: #fff; font-size: 25px;">1</p>
+                    <div class="footer__logo" style="position: absolute; bottom: 30px; left: 30px">
+                        <img src="./images/logo.png" alt="Logo" style="width: 150px;"/>
+                    </div>                    
+            
+            </div>
+        </div>
+    </section>
+    <!-- End of Single Picture Page -->
+
+    <!-- Start of Single Picture Description -->
+    <section class="single__pic__desc__page">
+        <div class="page" style="width: 210mm; min-height: 297mm; padding: 10mm; margin: 10mm auto; background-color: #fff;position: relative;">
+            <div class="single__pic__desc__inner" style="background-color: #fff; padding: 1cm; height: 257mm;">
+                <img class="desc__image" src="./images/image-1.png" alt="Image" style="width: 310px; height: 500px; display: block; margin: 50px auto;"/>
+                
+                <div class="bottom-line" style="margin: 0px 50px; height: 10px; background-color: #FFB826; border-radius: 20px;"></div>
+                
+                <h5 class="text-center" style="font-size: 23px; margin: 40px 0px;">This is Joshua. Here is a picture story 
+                    all about Joshua’s visit to the doctor with his mum.</h5>
+                <p style="position: absolute; bottom: 20px; left: 0px; background-color: #25C7CC; padding-top: 5px; padding-bottom: 5px; padding-left: 70px; padding-right: 10px; color: #fff; font-size: 25px;">2</p>
+                <div class="footer__logo" style="position: absolute; bottom: 30px; right: 30px">
+                    <img src="./images/logo.png" alt="Logo" style="width: 150px;"/>
+                </div>
+            </div>    
+        
+        </div>
+    </section>
+    <!-- End of Single Picture Page Description -->
+
+
+    <!-- Start of Double Picture Page -->
+    <section class="double__pic__page">
+        <div class="page" style="width: 210mm; min-height: 297mm; padding: 10mm; margin: 10mm auto; background-color: #fff;position: relative;">
+            <div class="double__pic__page__inner" style="background-color: #fff; padding: 1cm; height: 257mm;">
+                <img src="./images/image-2.png" alt="Image" style="width: 480px; display: block; margin: 50px auto;"/>
+                <img src="./images/image-3.png" alt="Image" style="width: 480px; display: block; margin: 50px auto;"/>
+
+                <div class="bottom-line" style="margin: 0px 50px; height: 10px; background-color: #FFB826; border-radius: 20px;"></div>
+
+                <h5 class="text-center" style="font-size: 23px; margin: 40px 0px; line-height: 50px;">They go into the doctors and check in with the receptionist. 
+                    The receptionist asks them to sit down in the waiting room.</h5>                
+
+
+                <p style="position: absolute; bottom: 20px; right: 0px; background-color: #25C7CC; padding-top: 5px; padding-bottom: 5px; padding-right: 70px; padding-left: 10px; color: #fff; font-size: 25px;">3</p>
+                <div class="footer__logo" style="position: absolute; bottom: 30px; left: 30px">
+                    <img src="./images/logo.png" alt="Logo" style="width: 150px;"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Double Picture Page -->
+
+
+    <!-- Start of Copyright Page -->
+    <section class="copyright__page">
+        <div class="page" style="width: 210mm; min-height: 297mm; padding: 20mm; margin: 10mm auto; background-color: #25C7CC;">
+            <div class="copyright__page__inner" style="background-color: #fff; padding: 1cm; height: 257mm; margin: 0px -40px; display: flex; flex-direction: column; justify-content: center;">
+                <img src="./images/logo.png" alt="Cover Page Image" style="margin: 0px 195px; width: 274px;" />
+                <h5 class="text-center" style="font-size: 23px; margin: 40px 0px;">All Rights Reserved As Iam</h5>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
